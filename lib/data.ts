@@ -100,6 +100,5 @@ export const skillsData = [
   "Redux",
   "Zustand",
   "Express",
-  "PostgreSQL",
   "Framer Motion",
 ] as const;
