@@ -1,0 +1,93 @@
+# <center>What is _My Love Memories_?</center>
+
+<Image
+  src="/images/my-love-memories/myLoveMemories-preview.png"
+  alt="Screenshot of My Love Memories platform"
+  width={1000}
+  height={500}
+  className="rounded-lg my-6 mx-auto"
+/>
+
+_"My Love Memories"_ is a project I created with the goal of helping people preserve and share their most meaningful moments. Built using modern technologies like Next.js, Prisma ORM, and tRPC, this platform is designed to create a collaborative memory journal where users can save special locations, track emotions, and share their favourite songs. Whether it's the place where you first met your partner or a peaceful spot that holds personal significance, _My Love Memories_ gives you a way to cherish and revisit these moments.
+
+---
+
+## <center>🚀 The Tech Behind _My Love Memories_</center>
+
+<div className="flex flex-col sm:flex-row">
+  <Image
+    src="/images/my-love-memories/trpc.svg"
+    alt="Next.js, Prisma, and tRPC logo"
+    width={200}
+    height={200}
+    className="rounded-lg my-6 mx-auto"
+  />
+  <Image
+    src="/images/my-love-memories/next-js.svg"
+    alt="Next.js, Prisma, and tRPC logo"
+    width={200}
+    height={200}
+    className="rounded-lg my-6 mx-auto dark:invert"
+  />
+</div>
+
+I developed _My Love Memories_ using **Next.js**, which is a React-based framework
+known for its server-side rendering and static site generation. This makes the app
+fast, responsive, and SEO-friendly.
+
+For the backend, I used **Prisma ORM**—an advanced object-relational mapper (ORM) for databases. Prisma makes it easier to manage complex database operations like relational data handling, providing a seamless experience for storing and retrieving user-generated memories. This allows for flexible data models, efficient queries, and scalability.
+
+To create real-time, type-safe APIs, I implemented **tRPC** (TypeScript Remote Procedure Calls), a powerful library that ensures smooth communication between the client and server. It eliminates the need for complex REST APIs and reduces errors by enforcing types across the entire stack.
+
+---
+
+## <center>🔒 User Authentication with NextAuth</center>
+
+<Image
+  src="/images/my-love-memories/next-auth.png"
+  alt="User authentication process"
+  width={200}
+  height={100}
+  className="rounded-lg my-6 mx-auto"
+/>
+
+_User management_ is a core feature of the platform, and I used **NextAuth** to handle authentication. NextAuth is a flexible authentication solution for Next.js applications, supporting multiple providers like Google, Facebook, and GitHub.
+
+Once users log in, they can start sharing their special locations, or "markers," on a map that is accessible to everyone in the community. These markers aren’t just for you—they’re meant to be shared and enjoyed by the community, allowing others to explore and discover places that hold meaning for different users. It fosters a sense of shared experiences, where you can see what places are special to others.
+
+---
+
+<Image
+  src="/images/my-love-memories/vercel.svg"
+  alt="Vercel logo"
+  width={300}
+  height={200}
+  className="rounded-lg my-6 mx-auto dark:invert"
+/>
+
+To ensure smooth deployment and optimal performance, the platform is hosted on **Vercel**, a cloud platform built for Next.js applications. Vercel provides automatic scaling, lightning-fast builds, and serverless functions, which makes it ideal for managing dynamic content like shared maps and user authentication. With Vercel, I can easily manage updates and scale the application without worrying about infrastructure maintenance, ensuring a seamless user experience.
+
+---
+
+### <center>Why I Should've Used Leaflet</center>
+
+While developing the map feature, I initially opted for Google Maps due to its robust features and global reach. However, in hindsight, **Leaflet** might have been a better choice. Leaflet is a lightweight, open-source JavaScript library for mobile-friendly interactive maps. Its simplicity and flexibility would have allowed for more customization and control over the map interface, offering a more optimized solution for displaying user-generated markers without the limitations of external API quotas.
+
+Google's APIs are free until you reach a $200 threshold, but after that, the costs can become quite expensive. This means that if the project escalates, I would eventually have to switch from Google Maps to Leaflet. Leaflet, being community-driven, handles all the use cases I needed, from marker display to interactivity. I chose Google Maps mainly to test their APIs and capabilities, but now I’ve proven my point. **Leaflet** could have been a more efficient and cost-effective choice from the start, with its wide range of plugins and strong community support that caters to most mapping needs.
+
+---
+
+<div className="text-center cursor-pointer">
+  <Link
+    href="https://mylovememories.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="no-underline"
+  >
+    <div className="bg-purple-100 dark:bg-purple-700 p-4 rounded-lg my-6">
+      <p className="text-lg text-purple-700 dark:text-purple-100">
+        <strong>Check out the project by clicking me!</strong>
+      </p>
+    </div>
+  </Link>
+</div>
