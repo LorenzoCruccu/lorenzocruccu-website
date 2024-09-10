@@ -1,7 +1,9 @@
-import classConverter from "@/public/classConverter.png";
 import crmExample from "@/public/crmExample.png";
+import angularSchematics from "@/public/images/angular-schematics/angular-schematics.png";
+import classConverter from "@/public/images/class-converter/classConverter.png";
 import myLoveMemories from "@/public/images/my-love-memories/myLoveMemories.png";
 import meamenuSite from "@/public/meamenuSite.png";
+
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -79,7 +81,7 @@ export const projectsData = [
     slug: "mea-menu-blog",
     description:
       "A dynamic, high-performance, and fully responsive blog with elegant animations.",
-    tags: ["React", "React Native", "Next.js", "Tailwind", "Framer Motion"],
+    tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
     imageUrl: meamenuSite,
     isDraft: true,
   },
@@ -93,13 +95,25 @@ export const projectsData = [
     isDraft: true,
   },
   {
+    title: "Angular Schematics",
+    slug: "angular-schematics",
+    description:
+      "Developed custom angular schematics to enhance productivity of the company.",
+    tags: ["Angular", "Typescript", "Productivity"],
+    imageUrl: angularSchematics,
+    isDraft: true,
+  },
+  {
     title: "classConverter",
     slug: "class-converter",
     description:
-      "A public extension for VScode that allow users to convert class from backend to frontend easly",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A public extension for VSCode that allow users to convert classes from SQL statements to Typescript easly.",
+    tags: ["Typescript", "VSCode", "Productivity"],
     imageUrl: classConverter,
-    isDraft: true,
+    githubUrl: "https://github.com/LorenzoCruccu/classConverter",
+    projectUrl:
+      "https://marketplace.visualstudio.com/items?itemName=LorenzoCruccu.classConverter",
+    isDraft: false,
   },
 ];
 
@@ -114,7 +128,6 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Redux",
   "Zustand",
   "Express",
   "TRPC",

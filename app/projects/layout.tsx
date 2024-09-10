@@ -1,5 +1,6 @@
 // app/project/layout.tsx
 
+import Footer from '@/components/footer';
 import { ReactNode } from 'react';
 import GoBack from './_components/GoBack';
 
@@ -15,6 +16,7 @@ export default function ProjectLayout({ children }: ProjectLayoutProps) {
 			<main className="flex-grow p-6">
 				{children} {/* This will render the specific project page content */}
 			</main>
+			<Footer />
 		</div>
 	);
 }

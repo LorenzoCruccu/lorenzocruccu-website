@@ -22,7 +22,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy working out and exploring new ideas in self-improvement. I'm also passionate about creating and participating in startups, as I thrive on innovation and <span className="font-medium">bringing new ideas to life.</span>
+        <span className="italic">When I'm not coding</span>, I enjoy working out and exploring new ideas in self-improvement. I'm also passionate about creating and participating in new projects, as I thrive on innovation and <span className="font-medium">bringing new ideas to life.</span>
       </p>
 
     </motion.section >

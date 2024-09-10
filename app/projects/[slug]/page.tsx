@@ -22,7 +22,7 @@ export default async function ProjectPage({ params }: { params: { slug: string }
 			<div className="flex justify-center items-center h-screen">
 				<div className="text-center">
 					<h1 className="text-3xl font-bold mb-4 dark:text-white">Page Under Construction</h1>
-					<p className="text-lg dark:text-gray-400">This project is still in progress! Stay tuned for updates.</p>
+					<p className="text-lg dark:text-gray-400">The project documentation is still in progress! Stay tuned for updates.</p>
 				</div>
 			</div>
 		);
@@ -53,8 +53,8 @@ export default async function ProjectPage({ params }: { params: { slug: string }
 				<AnimatedImage
 					imageUrl={projectData.imageUrl}
 					alt="My Love Memories Logo"
-					width={400}
-					height={400}
+					width={200}
+					height={200}
 				/>
 				<ProjectTitle title={projectData.title} />
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Footer() {
   const currentDate = new Date()
@@ -11,6 +12,11 @@ export default function Footer() {
         React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
         Framer Motion, React Email & Resend, Vercel hosting.
       </p>
+      <span className="text-xs">
+        <Link
+          href="https://github.com/ByteGrad/portfolio-website"
+          target="_blank" rel="noopener noreferrer">See more</Link>
+      </span>
     </footer>
   );
 }
